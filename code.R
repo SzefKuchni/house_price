@@ -1,5 +1,5 @@
 # git test 
 
 multiply <- function(x,y) {
-  lol
+  return(x*y)
 }
