@@ -1,0 +1,10 @@
+SAMPLE
+
+sample_ec.R 		-environment configuration
+sample_xy_vector.R	-creates x y vector with explained and explanatory variables
+sample_fold.R		-creates function for cross validation witch can genereate 5 folds
+
+EXPLORE
+
+explore_f_analysis.R	-divides fatures into ignored numericals and other as welll as creates a table of feature classes
+
