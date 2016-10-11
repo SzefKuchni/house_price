@@ -2,7 +2,9 @@
 temp<-Sys.info()['sysname']=="Linux"
 
 if (temp) {
-  setwd("/home/dominik/Desktop/House/")
+    setwd("/home/dominik/Desktop/House/")
+} else {
+    setwd("C:/Users/T540pDLEWYNBQ/Desktop/house_price")    
 }
 
 
