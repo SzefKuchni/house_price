@@ -31,4 +31,4 @@ plots_bi_num <- function(data_num, y_variable) {
     }
 }
 
-plots_bi_num(data_num = train_div$numeric, y_variable = "SalePrice")
+#plots_bi_num(data_num = train_div$numeric, y_variable = "SalePrice")

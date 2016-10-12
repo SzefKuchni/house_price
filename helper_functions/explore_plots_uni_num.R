@@ -10,8 +10,7 @@ plot_uni_num <- function(data_with_num_var, data_to_plot_with) {
     for (i in names(data_with_num_var)) {
         p<-ggplot(data = data_to_plot_with)+
             geom_histogram(aes_string(x=i, fill="origin"), position = "dodge")+
-            ggtitle("Histogram")
-        p
+            ggtitle(paste("Histogram of ", i, sep = ""))
         name<-paste("uni_num_",i,".png", sep="")
         full_path<-paste("plots/",name, sep="")
         png(full_path)
