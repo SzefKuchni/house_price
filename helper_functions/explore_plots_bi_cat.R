@@ -11,7 +11,7 @@ plots_bi_cat <- function(data_cat, y_variable) {
             geom_violin(aes_string(x = i, y = "SalePrice"), alpha=0)
         p
         
-        name<-paste("bi_num_",i,".png", sep = "")
+        name<-paste("bi_cat_",i,".png", sep = "")
         full_path<-paste("plots/",name, sep="")
         
         png(full_path, width = 800, height = 800)
