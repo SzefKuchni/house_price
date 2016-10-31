@@ -23,13 +23,12 @@ plot_uni_num(data_with_num_var = train_div$numeric, data_to_plot_with = combi)
 source("helper_functions/explore_plots_uni_cat.R")
 plot_uni_cat(data_with_cat_var = train_div$other, data_to_plot_with = combi)
 
-source("helper_functions/explore_plots_bi_num.R")
+source("helper_functions/explore_plots_bi_num_outliers_LM.R")
 plots_bi_num(data_num = train_div$numeric, y_variable = "SalePrice")
 
 source("helper_functions/explore_plots_bi_cat.R")
 plots_bi_cat(data_cat = train_div$other, y_variable = "SalePrice")
 
 #changes to be implemented
-#-relative difference between distributions of train and test sets - as another chart below
 #-count of observations below the bivariate categorical chart
 #-outliers in the bivvariate numerical plot based on the distance from cluster
